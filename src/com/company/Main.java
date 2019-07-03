@@ -11,16 +11,16 @@ public class Main {
 
        list.createListfromArrey(arrey);
   
-        list.addElementHead(1);
-        list.addElementTail(6);
+       list.addElementHead(1);
+       list.addElementTail(6);
        list.deleteElement(6);
        list.addElementByindex(3,3);
        list.replaceElementsByindex(3,5);
        list.deleteElementhead();
        list.deleteElementbyIndex(2);
-        list.deleteElementTail();
-        list.printList();
-        list.empty();
-        System.out.println();
+       list.deleteElementTail();
+       list.printList();
+       list.empty();
+       System.out.println();
     }
 }
