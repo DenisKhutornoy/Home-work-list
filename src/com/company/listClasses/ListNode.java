@@ -6,7 +6,6 @@ class ListNode<T> {
 
 
     public String toString() {
-
         return value+" ";
     }
 }
